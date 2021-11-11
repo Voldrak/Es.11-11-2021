@@ -15,7 +15,7 @@ export const products = [
     {
       id: 2,
       title: "World of Warcraft",
-      price: 39.90,
+      price: 39.95,
       description:
         "Un gioco da ruolo con tante classi, skill e un grande mondo da esplorare.",
       category: "MMORPG",
@@ -56,7 +56,7 @@ export const products = [
       id: 5,
       title:
         "Sea Of Thieves",
-      price: 9.90,
+      price: 9.95,
       description:
       "Un gioco di ruolo piratesco dove potrete navigare per mari inesplorati e saccheggiare le navi avversarie o saccheggiare isole.",
       category: "Adventure, MMORPG",
@@ -69,7 +69,7 @@ export const products = [
     {
       id: 6,
       title: "Skyrim ",
-      price: 44.90,
+      price: 44.95,
       description:
         "Gioco di avventura con ottima grafica e con grande scelta di progressione",
       category: "Single player, Adventure",
@@ -82,7 +82,7 @@ export const products = [
     {
       id: 7,
       title: "Albion Online",
-      price: 1.00,
+      price: 0.99,
       description:
         "Gioco di ruolo con visuale dall'alto e basato sul farming",
       category: "MMORPG",
@@ -121,7 +121,7 @@ export const products = [
     {
       id: 10,
       title: "Call of Duty: Modern Warfare",
-      price: 40.90,
+      price: 40.91,
       description:
         "Gioco sparatutto in prima persona, sopravvivi e vinci.",
       category: "FPS",
@@ -134,7 +134,7 @@ export const products = [
     {
       id: 11,
       title: "Forza Horizon 4",
-      price: 49.90,
+      price: 49.95,
       description:
         "Gioco di macchine con grafica eccezionale, fate mangiare la polvedere ai vostri avversari.",
       category: "Drive",
@@ -148,7 +148,7 @@ export const products = [
       id: 12,
       title:
         "GTA V",
-      price: 29.90,
+      price: 29.91,
       description:
         "Conquista fama, donne e soldi a volontà, se vuoi sfida la polizia, ruba veicoli, diventa chi vuoi, qui è tutto possibile.",
       category: "Adventure, Single player, Multiplayer, Sparatutto",
@@ -161,7 +161,7 @@ export const products = [
     {
       id: 13,
       title: "Fortnite",
-      price: 0.00,
+      price: 0.01,
       description:
         "Battle royale dove puoi costruire edifici molto velocemente e difenderti dai colpi avversari.",
       category: "MOBA, Battle royal",
