@@ -58,7 +58,7 @@ export const products = [
         "Sea Of Thieves",
       price: 9.95,
       description:
-      "Un gioco di ruolo piratesco dove potrete navigare per mari inesplorati e saccheggiare le navi avversarie o saccheggiare isole.",
+      "Un gioco di ruolo piratesco dove potrete navigare per mari inesplorati e saccheggiare le navi avversarie o le isole.",
       category: "Adventure, MMORPG",
       image: "https://img.icons8.com/dusk/64/000000/sea-of-thieves.png",
       rating: {
@@ -71,8 +71,8 @@ export const products = [
       title: "Skyrim ",
       price: 44.95,
       description:
-        "Gioco di avventura con ottima grafica e con grande scelta di progressione",
-      category: "Single player, Adventure",
+        "Gioco Open World con ottima grafica e con grande scelta di progressione, una grande mappa tutta scoprire e tanti tipi di NPC da uccidere o salvare.",
+      category: "Single player, Adventure, Open World",
       image: "https://img.icons8.com/nolan/64/skyrim.png",
       rating: {
         rate: 4.7,
@@ -84,7 +84,7 @@ export const products = [
       title: "Albion Online",
       price: 0.99,
       description:
-        "Gioco di ruolo con visuale dall'alto e basato sul farming",
+        "Gioco di ruolo con visuale dall'alto e basato sul farming, con tante armi ed equipaggiamenti tutti da scoprire.",
       category: "MMORPG",
       image: "https://img.icons8.com/nolan/64/albion-online.png",
       rating: {
@@ -110,7 +110,7 @@ export const products = [
       title: "Brawlhalla",
       price: 0.64,
       description:
-        "Combattimenti in arena 2D, l'ultimo che sopravvive vince, non giocare senza un connessione buona, il minimo ritardo ti potrebbe costare la vita.",
+        "Combattimenti in arena 2D, l'ultimo che sopravvive vince.",
       category: "MOBA, 2D",
       image: "https://img.icons8.com/nolan/64/brawlhalla.png",
       rating: {

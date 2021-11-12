@@ -1,34 +1,33 @@
 import {products} from "./products.js"; 
 
-function createProduct(parent, imgUrl, productTitle, textPrice) {
-    const product = document.createElement("div");
-    product.className = "product";
+const render = (container, items) => {
+  const elements = items.map((element) => 
+    `<div class="product">
+      <img class="icona" src="${element.image}" alt="">
+      <h3>${element.title}</h3>
+      <p class="descTxt">${element.description}<p>
+      <a href="#"><button type="button" class="cartBtn">
+      <img class="cartImg" src="https://img.icons8.com/nolan/64/fast-cart.png"/>
+      </button></a> 
+      <p class="priceP"><strong>${element.price} €</strong></p>
+    </div>`
+  );
   
-    createImg(product, imgUrl, productTitle);
-    createText(product, productTitle, textPrice);
-    parent.appendChild(product);
-  }
-  
-  function createImg(parent, imgUrl, productTitle) {
-    const image = document.createElement("img");
-    image.src = imgUrl;
-    image.alt = productTitle;
-  
-    parent.appendChild(image);
-  }
-  
-  function createText(parent, productTitle, textPrice) {
-    const title = document.createElement("h4");
-    title.textContent = productTitle;
-  
-    const price = document.createElement("strong");
-    price.textContent = `${textPrice} $`;
-  
-    parent.append(title, price);
-  }
- 
-  const wrapperProducts = document.querySelector(".wrapper__products");
-  
-    products.map((product) => {
-      createProduct(wrapperProducts, product.image, product.title, product.price);
-    });
+
+  const content = elements.join('');
+
+  container.innerHTML = content;
+
+}
+
+
+
+const list = document.querySelector(".wrapper__products")
+render(list, products);
+
+const cartBtn = document.querySelector(".cartBtn");
+
+cartBtn.addEventListener('click', () => {
+  document.getElementsByClassName("product").classname += " productAct";
+  console.log(cartBtn, 'ciao');
+ });
